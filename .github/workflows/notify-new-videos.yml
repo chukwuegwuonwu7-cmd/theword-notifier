@@ -1,9 +1,7 @@
 name: Notify new videos and posts
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'   # every 5 minutes (GitHub may delay this a few minutes)
-  workflow_dispatch: {}     # also lets you run it by hand from the Actions tab
+  workflow_dispatch: {}
 
 jobs:
   notify:
